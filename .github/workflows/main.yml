@@ -53,7 +53,7 @@ jobs:
         run: yarn build
           
       - name: Installing Surge
-        run: yarn install -g surge
+        run: yarn global add surge
         
       - name: Deploying build
         run: surge ./build bootcamp2021_shakir.surge.sh --token ${{ secrets.SURGE_TOKEN }}
