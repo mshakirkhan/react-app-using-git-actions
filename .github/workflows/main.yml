@@ -43,7 +43,7 @@ jobs:
           # Deprecated. Use node-version instead. Will not be supported after October 1, 2019
           version: # optional
           
-        - name: GitHub Action for Yarn
+      - name: GitHub Action for Yarn
         uses: Borales/actions-yarn@v2.3.0
         with:
           # Yarn command
